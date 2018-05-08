@@ -1,0 +1,45 @@
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Download integrity verification: Demo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="content">
+            <h2>Download links with integrity tags</h2>
+            <p><a href="https://github.com/transmission/transmission-releases/raw/master/transmission-2.94.tar.xz" integrity="sha256-35442cc849f91f8df982c3d0d479d650c6ca19310a994eccdaa79a4af3916b7d" download>Download Transmission (<b>valid</b> sha-256 integrity tag)</a></p>
+            <p><a href="https://github.com/transmission/transmission-releases/raw/master/transmission-2.94.tar.xz" integrity="sha1-5f1b41090764bb2150eb0440fce671a3825ef265" download>Download Transmission (<b>valid</b> sha-1 integrity tag)</a></p>
+            <p><a href="https://github.com/transmission/transmission-releases/raw/master/transmission-2.94.tar.xz" integrity="md5-c92829294edfa391c046407eeb16358a" download>Download Transmission (<b>valid</b> md5 integrity tag)</a></p>
+            <p><a href="https://download.handbrake.fr/releases/1.1.0/HandBrake-1.1.0-source.tar.bz2" integrity="sha256-b02e7c6f8bd8dc28eea4623663deb5971dcbca1ad59da9eb74aceb481d8c40da" download>Download Handbrake (<b>invalid</b> sha-256 integrity tag)</a></p>
+            <p><a href="http://releases.ubuntu.com/16.04.4/ubuntu-16.04.4-desktop-amd64.iso" integrity="sha256-3380883b70108793ae589a249cccec88c9ac3106981f995962469744c3cbd46d" download>Download Ubuntu (<b>valid</b> sha-256 integrity tag; large file)</a></p>
+            <p><a href="https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.6.tar.bz2" integrity="pgp-iQEzBAABCAAdFiEE2GkhI8QGXepeDzq1JJs50k8l47YFAlrLyXcACgkQJJs50k8l47aq9Af/ZaDFFtxN8ihX6fAll5O9uMYL1wOlGUUStzRQEJeT9QGo+kUB3ZVmJKNxBQqcZc9vx0ZLHloO1rK8d0VFKCIaCw/wNr5AjOweVf9q7ad9E5iuWjpxJS5noYGkvTl7vYQGnbSD2PcggeG6Chuywh+Or+8Apik9g/XV1RobDUouTLudlwfQTshNP6+y7NjsAjeuLyUyouzwYk1Hsz3eh6UieKeA5/kXeguYJheu8FCKSeNxsHe2NXFMbUToUgqcmsqG2nXfNshqhOpjJ3866pGNuyIuTcS0TMIjvoM5pTK1rv9K3Gwf2eSOltSe2totetKhdJpLu3jBUG6hX/IW2dEDAIkBMwQAAQgAHRYhBAMewlNuWA2Oooap8iBxsIozvT8GBQJay+dZAAoJECBxsIozvT8Gg/0IAIj1XTn4pwEsIIZ66fKkFgTAkVo5CL98YSd3cWtcpohNVnT18drNV3ucu2eksOmXZR6zgI73/HY6klngv9oiLdfDXym4Kis9w2/hPIzYAj+GZ+mpeJFjkXYecJs92SP7dlw0Mb0QaCVA9RjRoYrubEVxwB1hfK0Ipl/DJQAUL+5Md8yUiBZh5xbY6DJ5COHQxj2OMNrgP/37Ff6o59etK5DqODB8+8VzKXSvjZBlxS9K0ihbYdSAFuOpGluhDsNxOoibqqfpuE2CoOc4/szytZdDCQaQRW3PRs5UcbQoUxWFtuByT6wU6+wSEBNmfE6xlmw7hxjXDsfdp6X2Ml4veCg=-4F25E3B6-d8692123c4065dea5e0f3ab5249b39d24f25e3b6" download>Download GnuPG (<b>valid</b> PGP integrity tag)</a></p>
+                        
+            <h2>Download links with checksums on the side</h2>
+            <table>
+                <tr>
+                    <td><a href="https://github.com/transmission/transmission-releases/raw/master/transmission-2.94.tar.xz" download>Download Transmission</a></td>
+                    <td>35442cc849f91f8df982c3d0d479d650c6ca19310a994eccdaa79a4af3916b7d (sha-256)</td>
+                </tr>
+                <tr>
+                    <td><a href="https://download.handbrake.fr/releases/1.1.0/HandBrake-1.1.0-source.tar.bz2" download>Download Handbrake</a></td>
+                    <td>b73a53b50b2c18709e570725e21557e49d8f5756 (sha-1)</td>
+                </tr>
+                <tr>
+                    <td><a href="https://downloads.plex.tv/plex-media-server/1.12.3.4973-215c28d86/PlexMediaServer-1.12.3.4973-215c28d86-OSX.zip" download>Download Plex</a></td>
+                    <td>no checksum for this file</td>
+                </tr>
+            </table>
+            <h2>Links to sample external download pages</h2>
+            <p><a href="https://developer.android.com/studio/index.html#downloads" target="_blank">Android Studio</a></p>
+            <p><a href="https://www.gimp.org/downloads/" target="_blank">GIMP</a></p>
+            <p><a href="https://handbrake.fr/" target="_blank">Handbrake</a></p>
+            <p><a href="https://www.plex.tv/fr/downloads/" target="_blank">Plex</a></p>
+            <p><a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC</a></p>
+            <p><a href="https://transmissionbt.com/download/" target="_blank">Transmission</a></p>
+            <p><a href="https://www.videolan.org/" target="_blank">VLC</a></p>
+            
+        </div>
+    </body>
+</html>
+
+
